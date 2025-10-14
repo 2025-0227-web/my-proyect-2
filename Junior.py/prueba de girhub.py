@@ -1,4 +1,7 @@
 
-def validacion "email"
-    if "email" is"estraño"=is "false"
-elif "email" is "normal"=is "true"
+def validacion(email):
+    if email == "estraño":
+        return False
+    elif email == "normal":
+        return True
+    print ("error tipo de email desconocido")
