@@ -30,4 +30,4 @@ else:
     elif operacion == "potencia":
         print("Resultado:", a ** b)
     else:
-        print("Operación no válida")
+        print("operación no válida")
