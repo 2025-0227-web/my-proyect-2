@@ -7,6 +7,6 @@ contraseña = input("Introduce tu contraseña: ")
 
 # Verificar contraseña
 if contraseña == CONTRASEÑA_VALIDA:
-    print(f"Bienvenido {nombre_usuario}")
+    print(f"bienvenido {nombre_usuario}")
 else:
-    print("Contraseña incorrecta. Acceso denegado.")
+    print("Contraseña incorrecta. acceso denegado.")
